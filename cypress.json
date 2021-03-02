@@ -1,0 +1,22 @@
+{
+	"$schema": "https://on.cypress.io/cypress.schema.json",
+	"baseUrl": "https://www.saucedemo.com/",
+	"responseTimeout": 50000,
+	"viewportHeight": 1080,
+	"viewportWidth": 1920,
+	"waitForAnimations": true,
+	"pageLoadTimeout": 60000,
+	"defaultCommandTimeout": 60000,
+	"video": false,
+	"screenshotsFolder": "C:\\Temp",
+	"videosFolder": "C:\\Temp",
+	"videoCompression": 0,
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"reportDir": "C:\\Temp",
+		"reportFilename": "index",
+		"overwrite": false,
+		"html": true,
+		"json": false
+	}
+}
